@@ -1,0 +1,95 @@
+/*
+logo: #fec5bb
+primary: #9b9b7a
+secondary: #d9ae94
+danger: #e26d5c
+info: #d08c60 */
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Lobster',
+    cursive;
+}
+.container{
+    width: 95%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.mt-2 {
+    margin-top: 2rem;
+}
+.btn {
+     display: inline-block;
+     text-decoration: none;
+     font-size: 1rem;
+     padding: 0.5em;
+     margin: 0 0.1em;
+     border-radius: 0.5em;
+
+}
+.btn-primary{
+    
+    background-color: #9b9b7a;
+    color: black;
+}
+.btn-secondary{
+     
+       background-color: #d9ae94;
+       color: black;
+}
+.btn-danger{
+    background-color: #e26d5c;
+    color: black;
+}
+.btn-info{
+    background-color: #d08c60;
+    color: black;
+    margin: 0 0.2em;
+}
+.logo{
+    display: block;
+    font-size:  3rem;
+    padding: 1em;
+    text-decoration: none;
+    text-align: center;
+    background-color: #fec5bb;
+    color: black;
+    border-radius: 0.5em;
+}
+.card{
+    width: 20rem;
+    background-color: #9b9b7a;
+    overflow: hidden;
+    color: black;
+    border-radius: 0.5em;
+    text-align: center;
+    display: block;
+    justify-content:center
+}
+.card-img{
+    width: 100%;
+    text-align: center;
+
+}
+.card-body{
+    padding: 1em;
+
+}
+.card-body h5{
+    font-size: 1.5rem;
+    margin: 1em 0;
+    font-weight: 300;
+}
+.card-body p{
+    font-weight: 300;
+}
